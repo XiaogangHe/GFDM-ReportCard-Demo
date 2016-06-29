@@ -5,7 +5,7 @@
 <title>Merge of DroughtReportCard and WorldBoundaries - Google Fusion Tables</title>
 <style type="text/css">
 html, body, #googft-mapCanvas {
-  height: 800px;
+  height: 600px;
   margin: 0;
   padding: 0;
   width: 1000px;
@@ -25,9 +25,9 @@ html, body, #googft-mapCanvas {
     }
     var mapDiv = document.getElementById('googft-mapCanvas');
     mapDiv.style.width = isMobile ? '100%' : '1000px';
-    mapDiv.style.height = isMobile ? '100%' : '800px';
+    mapDiv.style.height = isMobile ? '100%' : '600px';
     var map = new google.maps.Map(mapDiv, {
-      center: new google.maps.LatLng(39.72170749435596, 3.69140625),
+      center: new google.maps.LatLng(0, 0),
       zoom: 2,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
