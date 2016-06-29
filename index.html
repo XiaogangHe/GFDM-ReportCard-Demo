@@ -8,7 +8,7 @@ html, body, #googft-mapCanvas {
   height: 600px;
   margin: 0;
   padding: 0;
-  width: 1200px;
+  width: 1100px;
 }
 </style>
 
@@ -24,7 +24,7 @@ html, body, #googft-mapCanvas {
       viewport.setAttribute('content', 'initial-scale=1.0, user-scalable=no');
     }
     var mapDiv = document.getElementById('googft-mapCanvas');
-    mapDiv.style.width = isMobile ? '100%' : '1200px';
+    mapDiv.style.width = isMobile ? '100%' : '1100px';
     mapDiv.style.height = isMobile ? '100%' : '600px';
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(40, 0),
