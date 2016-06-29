@@ -28,6 +28,7 @@ html, body, #googft-mapCanvas {
     mapDiv.style.height = isMobile ? '100%' : '550px';
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(40, 0),
+      minZoom: 2,
       zoom: 2,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
