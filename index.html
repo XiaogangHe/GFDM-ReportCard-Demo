@@ -24,8 +24,8 @@ html, body, #googft-mapCanvas {
       viewport.setAttribute('content', 'initial-scale=1.0, user-scalable=no');
     }
     var mapDiv = document.getElementById('googft-mapCanvas');
-    mapDiv.style.width = isMobile ? '100%' : '500px';
-    mapDiv.style.height = isMobile ? '100%' : '300px';
+    mapDiv.style.width = isMobile ? '100%' : '1000px';
+    mapDiv.style.height = isMobile ? '100%' : '800px';
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(39.72170749435596, 3.69140625),
       zoom: 2,
