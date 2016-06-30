@@ -1,0 +1,15 @@
+<div class="googft-info-window"
+     style="font-family: sans-serif; width: 400px; height: 25em; overflow-y: auto;">
+  <img src="{URL}" 
+       style="width: 150px; vertical-align: top; margin-right: .5em" />
+  <h2 style="color: brown">{Countries}</h2> 
+  <p style="color: black"><b>Current</b>: <ins>{Current}%</ins> area under <span style='color: #FF0000;'>Drought</span>.</p>
+  <p style="color: black"><b>3-mon Forecast</b>: 25% chance that <ins>{25%}%</ins> area under <span style='color: #FF0000;'>Drought</span>.</p>
+  <p style="color: black"><b>3-mon Forecast</b>: 50% chance that <ins>{50%}%</ins> under <span style='color: #FF0000;'>Drought</span>.</p>
+  <p style="color: black"><b>3-mon Forecast</b>: 75% chance that <ins>{75%}%</ins> under <span style='color: #FF0000;'>Drought</span>.</p>
+  <p>See details:
+      <a href="http://stream.princeton.edu/GFDM/WEBPAGE/">
+      Princeton Global Flood and Drought Monitoring System
+      </a>
+</p>
+</div>
